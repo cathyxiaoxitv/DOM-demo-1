@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>硬核手写DOM库</title>
+</head>
+<body>
+<div id="newSib">我本来是第一个div的叔叔</div>
+<div>================以上为增================</div>
+<div id="remove">有本事删除我试试啊你！
+    <div id="removeSon">我是上面的孩子</div>
+</div>
+<div id="empty">灭子绝孙这种事情你也做得出来o(╥﹏╥)o
+    <div>我的第一个孩子
+        <div>我的第一个孙子</div>
+    </div>
+    <div>我的第二个孩子</div>
+</div>
+<div>================以上为删================</div>
+<div id="attr">分别【读】和【写】我的属性试试吧！我用了重载这一知识点哦～</div>
+<div id="text">分别【读】和【写】我的文本内容试试吧！我可是用了适配和重载两个知识点哦～</div>
+<div id="html"><strong>分别【读】和【写】我的HTML内容试试吧！我用了重载这一知识点哦～</strong></div>
+<div id="style">分别【读】和【写】我的style试试吧！我用了重载这一知识点哦～</div>
+<div id="classTest">分别【添加】【移除】【查看】我的class试试吧！</div>
+<div id="eventTest">Hi there！点击我试试吧！</div>
+<div>================以上为改================</div>
+<div id="find">Hi there！找到我试试吧！
+    <div>我是find的孩子～</div>
+</div>
+<script src="dom.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
