@@ -47,4 +47,5 @@ console.log(Array.from(t))
 // console.log(Array.from(n))
 // console.log(cathy.previous(newSib))
 console.log(cathy.index(remove))
+//=================以上为查====================
 

@@ -171,7 +171,7 @@ console.log(Array.from(t)); // console.log(t[0])//加上下标[0]之后才是div
 // console.log(Array.from(n))
 // console.log(cathy.previous(newSib))
 
-console.log(cathy.index(remove));
+console.log(cathy.index(remove)); //=================以上为查====================
 },{}],"../../../.config/yarn/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
